@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362A22B12B5E46600022282D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22B02B5E46600022282D /* AppDelegate.swift */; };
+		362A22B32B5E46600022282D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22B22B5E46600022282D /* SceneDelegate.swift */; };
+		362A22B52B5E46600022282D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22B42B5E46600022282D /* ViewController.swift */; };
+		362A22B82B5E46600022282D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362A22B62B5E46600022282D /* Main.storyboard */; };
+		362A22BA2B5E46620022282D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362A22B92B5E46620022282D /* Assets.xcassets */; };
+		362A22BD2B5E46620022282D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362A22BB2B5E46620022282D /* LaunchScreen.storyboard */; };
+		362A22C82B5E46900022282D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22C72B5E46900022282D /* NetworkManager.swift */; };
+		362A22CD2B5E4D600022282D /* UserCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22CC2B5E4D600022282D /* UserCountry.swift */; };
+		362A22D12B5E51360022282D /* UserCountryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22CF2B5E51360022282D /* UserCountryTVCell.swift */; };
+		362A22D22B5E51360022282D /* UserCountryTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362A22D02B5E51360022282D /* UserCountryTVCell.xib */; };
+		362A22D42B5E52520022282D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A22D32B5E52520022282D /* HistoryViewController.swift */; };
+		712FBD1810C91F447E2054FF /* Pods_Phi_Wallet_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D886DD913E209B9E2CAFF3CF /* Pods_Phi_Wallet_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		362A22AD2B5E46600022282D /* Phi Wallet App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phi Wallet App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362A22B02B5E46600022282D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		362A22B22B5E46600022282D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		362A22B42B5E46600022282D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362A22B72B5E46600022282D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		362A22B92B5E46620022282D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362A22BC2B5E46620022282D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		362A22BE2B5E46620022282D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362A22C72B5E46900022282D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		362A22CC2B5E4D600022282D /* UserCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCountry.swift; sourceTree = "<group>"; };
+		362A22CF2B5E51360022282D /* UserCountryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCountryTVCell.swift; sourceTree = "<group>"; };
+		362A22D02B5E51360022282D /* UserCountryTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCountryTVCell.xib; sourceTree = "<group>"; };
+		362A22D32B5E52520022282D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		37867954A4D911C5F4C56B4B /* Pods-Phi Wallet App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phi Wallet App.debug.xcconfig"; path = "Target Support Files/Pods-Phi Wallet App/Pods-Phi Wallet App.debug.xcconfig"; sourceTree = "<group>"; };
+		D886DD913E209B9E2CAFF3CF /* Pods_Phi_Wallet_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phi_Wallet_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FB6CB2B12EA9D155C50B6E /* Pods-Phi Wallet App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phi Wallet App.release.xcconfig"; path = "Target Support Files/Pods-Phi Wallet App/Pods-Phi Wallet App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362A22AA2B5E46600022282D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712FBD1810C91F447E2054FF /* Pods_Phi_Wallet_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038D711FAAA8096CAF75F486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D886DD913E209B9E2CAFF3CF /* Pods_Phi_Wallet_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12DFA40B27A5FF1BC9B95CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37867954A4D911C5F4C56B4B /* Pods-Phi Wallet App.debug.xcconfig */,
+				F6FB6CB2B12EA9D155C50B6E /* Pods-Phi Wallet App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		362A22A42B5E46600022282D = {
+			isa = PBXGroup;
+			children = (
+				362A22AF2B5E46600022282D /* Phi Wallet App */,
+				362A22AE2B5E46600022282D /* Products */,
+				12DFA40B27A5FF1BC9B95CE9 /* Pods */,
+				038D711FAAA8096CAF75F486 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		362A22AE2B5E46600022282D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362A22AD2B5E46600022282D /* Phi Wallet App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362A22AF2B5E46600022282D /* Phi Wallet App */ = {
+			isa = PBXGroup;
+			children = (
+				362A22C62B5E467B0022282D /* View */,
+				362A22C52B5E46720022282D /* Models */,
+				362A22C42B5E46690022282D /* NetworkManager */,
+				362A22B02B5E46600022282D /* AppDelegate.swift */,
+				362A22B22B5E46600022282D /* SceneDelegate.swift */,
+				362A22B62B5E46600022282D /* Main.storyboard */,
+				362A22B92B5E46620022282D /* Assets.xcassets */,
+				362A22BB2B5E46620022282D /* LaunchScreen.storyboard */,
+				362A22BE2B5E46620022282D /* Info.plist */,
+			);
+			path = "Phi Wallet App";
+			sourceTree = "<group>";
+		};
+		362A22C42B5E46690022282D /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				362A22C72B5E46900022282D /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		362A22C52B5E46720022282D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				362A22C92B5E46940022282D /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		362A22C62B5E467B0022282D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				362A22CE2B5E510E0022282D /* Cells */,
+				362A22B42B5E46600022282D /* ViewController.swift */,
+				362A22D32B5E52520022282D /* HistoryViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		362A22C92B5E46940022282D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				362A22CC2B5E4D600022282D /* UserCountry.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		362A22CE2B5E510E0022282D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				362A22CF2B5E51360022282D /* UserCountryTVCell.swift */,
+				362A22D02B5E51360022282D /* UserCountryTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362A22AC2B5E46600022282D /* Phi Wallet App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362A22C12B5E46620022282D /* Build configuration list for PBXNativeTarget "Phi Wallet App" */;
+			buildPhases = (
+				D88D8F65A0698A5EE2644A8B /* [CP] Check Pods Manifest.lock */,
+				362A22A92B5E46600022282D /* Sources */,
+				362A22AA2B5E46600022282D /* Frameworks */,
+				362A22AB2B5E46600022282D /* Resources */,
+				518D910050120C8743850280 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phi Wallet App";
+			productName = "Phi Wallet App";
+			productReference = 362A22AD2B5E46600022282D /* Phi Wallet App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362A22A52B5E46600022282D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					362A22AC2B5E46600022282D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 362A22A82B5E46600022282D /* Build configuration list for PBXProject "Phi Wallet App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362A22A42B5E46600022282D;
+			productRefGroup = 362A22AE2B5E46600022282D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362A22AC2B5E46600022282D /* Phi Wallet App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362A22AB2B5E46600022282D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362A22BD2B5E46620022282D /* LaunchScreen.storyboard in Resources */,
+				362A22BA2B5E46620022282D /* Assets.xcassets in Resources */,
+				362A22B82B5E46600022282D /* Main.storyboard in Resources */,
+				362A22D22B5E51360022282D /* UserCountryTVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		518D910050120C8743850280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phi Wallet App/Pods-Phi Wallet App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phi Wallet App/Pods-Phi Wallet App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phi Wallet App/Pods-Phi Wallet App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88D8F65A0698A5EE2644A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phi Wallet App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362A22A92B5E46600022282D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362A22C82B5E46900022282D /* NetworkManager.swift in Sources */,
+				362A22B52B5E46600022282D /* ViewController.swift in Sources */,
+				362A22B12B5E46600022282D /* AppDelegate.swift in Sources */,
+				362A22B32B5E46600022282D /* SceneDelegate.swift in Sources */,
+				362A22D12B5E51360022282D /* UserCountryTVCell.swift in Sources */,
+				362A22CD2B5E4D600022282D /* UserCountry.swift in Sources */,
+				362A22D42B5E52520022282D /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		362A22B62B5E46600022282D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362A22B72B5E46600022282D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		362A22BB2B5E46620022282D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362A22BC2B5E46620022282D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362A22BF2B5E46620022282D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		362A22C02B5E46620022282D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		362A22C22B5E46620022282D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37867954A4D911C5F4C56B4B /* Pods-Phi Wallet App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K3S9658BV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phi Wallet App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aijaz.scrollableTabbarPractice.Phi-Wallet-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		362A22C32B5E46620022282D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FB6CB2B12EA9D155C50B6E /* Pods-Phi Wallet App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K3S9658BV;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phi Wallet App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aijaz.scrollableTabbarPractice.Phi-Wallet-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362A22A82B5E46600022282D /* Build configuration list for PBXProject "Phi Wallet App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A22BF2B5E46620022282D /* Debug */,
+				362A22C02B5E46620022282D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362A22C12B5E46620022282D /* Build configuration list for PBXNativeTarget "Phi Wallet App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A22C22B5E46620022282D /* Debug */,
+				362A22C32B5E46620022282D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362A22A52B5E46600022282D /* Project object */;
+}

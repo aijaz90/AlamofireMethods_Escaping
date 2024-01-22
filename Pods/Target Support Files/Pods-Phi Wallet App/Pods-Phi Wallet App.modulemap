@@ -1,0 +1,6 @@
+framework module Pods_Phi_Wallet_App {
+  umbrella header "Pods-Phi Wallet App-umbrella.h"
+
+  export *
+  module * { export * }
+}
